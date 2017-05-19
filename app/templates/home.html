@@ -2,10 +2,9 @@
   <div class="container">
     <h1>Bloc Chat Rooms</h1>
     
-     <h4 ng-repeat="room in home.rooms track by $index">{{room.$value}}</h4> 
+     <h4 ng-repeat="room in home.rooms ">{{room.$value}}</h4> 
     
   </div>
 </section>
-  
-<!--had to use 'home'.rooms to get to work. what is the reason behind that? is it because we are in an html file and when we set up the app.js $stateProvider we listed 'controller: HomeCtrl as home'?-->
+
   
